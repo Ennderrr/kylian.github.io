@@ -1,0 +1,41 @@
+body {
+            font-family: Arial;                     /*Police d'écriture du site*/
+            margin: 0;
+            padding: 0;
+            background-color: #ff0000;            /*Couleur des bords des sections*/
+        }
+
+        header {
+            background-color: #35abc6;            /*Couleur du fond du site*/
+            text-align: center;                     /*Alignement du titre principal*/
+            padding: 25px;                          /*Taille de marge du titre principal*/
+        }
+
+        h1 {
+            font-size: 40px;                        /*Taille du titre principal*/
+            color: #000000;                       /*Couleur du titre principal*/
+        }
+
+        h2 {
+            font-size: 20px;                        /*Taille du sous-titre principal*/
+        }
+
+        h3 {
+            font-size: 25px;                        /*Taille des titres de sections*/
+        }
+
+        h4 {
+            font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
+        }
+
+        section {
+            padding: 25px;                          /*Taille du fond des sections*/
+            background-color: #ffffff;            /*Couleur des sections*/
+            margin: 25px;                           /*Taille des bords des sections*/
+            box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
+        }
+
+        ul {
+            list-style-type: disc;                  /*Type de puce des listes*/
+            margin-left: 15px;                      /*Marge des listes*/
+        }
