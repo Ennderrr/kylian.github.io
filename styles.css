@@ -39,3 +39,16 @@ body {
             list-style-type: disc;                  /*Type de puce des listes*/
             margin-left: 15px;                      /*Marge des listes*/
         }
+
+        @media screen and (max-width: 600px) {
+            /* Styles pour les petits écrans (par exemple, les téléphones) */
+        }
+          
+        @media screen and (min-width: 601px) and (max-width: 1024px) {
+            /* Styles pour les écrans de taille moyenne (par exemple, les tablettes) */
+        }
+          
+        @media screen and (min-width: 1025px) {
+            /* Styles pour les grands écrans (par exemple, les ordinateurs de bureau) */
+        }
+          
