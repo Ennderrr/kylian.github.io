@@ -1,14 +1,14 @@
 body {
             font-family: Arial;                     /*Police d'écriture du site*/
             margin: 0;
-            padding: 0;
+            padding: 48px;
             background-color: #ff0000;            /*Couleur des bords des sections*/
         }
 
         header {
-            background-color: #35abc6;            /*Couleur du fond du site*/
+            background-color: #70e1f7;            /*Couleur du fond du site*/
             text-align: center;                     /*Alignement du titre principal*/
-            padding: 25px;                          /*Taille de marge du titre principal*/
+            padding: 48px;                          /*Taille de marge du titre principal*/
         }
 
         h1 {
@@ -29,7 +29,7 @@ body {
         }
 
         section {
-            padding: 25px;                          /*Taille du fond des sections*/
+            padding: 48px;                          /*Taille du fond des sections*/
             background-color: #ffffff;            /*Couleur des sections*/
             margin: 25px;                           /*Taille des bords des sections*/
             box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
