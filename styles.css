@@ -1,54 +1,104 @@
-body {
-            font-family: Arial;                     /*Police d'écriture du site*/
-            margin: 0;
-            padding: 48px;
-            background-color: #ff0000;            /*Couleur des bords des sections*/
-        }
+@media screen and (max-width: 600px) {                                                               /*exemple : Téléphone*/
+    body {
+        font-family: Arial;                     /*Police d'écriture du site*/
+        margin: 0;
+        padding: 20px;
+        background-color: #ff0000;            /*Couleur des bords des sections*/
+    }
+    
+    header {
+        background-color: #70e1f7;            /*Couleur du fond du site*/
+        text-align: center;                     /*Alignement du titre principal*/
+        padding: 10px;                          /*Taille de marge du titre principal*/
+    }
 
-        header {
-            background-color: #70e1f7;            /*Couleur du fond du site*/
-            text-align: center;                     /*Alignement du titre principal*/
-            padding: 48px;                          /*Taille de marge du titre principal*/
-        }
+    h1 {
+        font-size: 35px;                        /*Taille du titre principal*/
+        color: #000000;                       /*Couleur du titre principal*/
+    }
 
-        h1 {
-            font-size: 40px;                        /*Taille du titre principal*/
-            color: #000000;                       /*Couleur du titre principal*/
-        }
+    h2 {
+        font-size: 20px;                        /*Taille du sous-titre principal*/
+    }
 
-        h2 {
-            font-size: 20px;                        /*Taille du sous-titre principal*/
-        }
+    h3 {
+        font-size: 25px;                        /*Taille des titres de sections*/
+    }
 
-        h3 {
-            font-size: 25px;                        /*Taille des titres de sections*/
-        }
+    h4 {
+        font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
+    }
 
-        h4 {
-            font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
-        }
+    section {
+        padding: 15px;                          /*Taille du fond des sections*/
+        background-color: #ffffffc5;          /*Couleur des sections*/
+        margin: 10px;                           /*Taille des bords des sections*/
+        box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
+    }
 
-        section {
-            padding: 48px;                          /*Taille du fond des sections*/
-            background-color: #ffffff;            /*Couleur des sections*/
-            margin: 25px;                           /*Taille des bords des sections*/
-            box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
-        }
-
-        ul {
-            list-style-type: disc;                  /*Type de puce des listes*/
-            margin-left: 15px;                      /*Marge des listes*/
-        }
-
-        @media screen and (max-width: 600px) {
-            /* Styles pour les petits écrans (par exemple, les téléphones) */
-        }
+    ul {
+        list-style-type: disc;                  /*Type de puce des listes*/
+        margin-left: 10px;                      /*Marge des listes*/
+    }
+}
           
-        @media screen and (min-width: 601px) and (max-width: 1024px) {
-            /* Styles pour les écrans de taille moyenne (par exemple, les tablettes) */
-        }
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {                                             /*exemple : Tablette & mode portrait*/
+    header {
+        background-color: #70e1f7;            /*Couleur du fond du site*/
+        text-align: center;                     /*Alignement du titre principal*/
+        padding: 48px;                          /*Taille de marge du titre principal*/
+    }
+    
+    section {
+        padding: 48px;                          /*Taille du fond des sections*/
+        background-color: #ffffffc5;          /*Couleur des sections*/
+        margin: 20px;                           /*Taille des bords des sections*/
+        box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
+    }
+}
           
-        @media screen and (min-width: 1025px) {
-            /* Styles pour les grands écrans (par exemple, les ordinateurs de bureau) */
-        }
-          
+
+@media screen and (min-width: 1025px) {                                                                   /*exemple : Ordinateur & gros écran*/
+    body {
+        font-family: Arial;                     /*Police d'écriture du site*/
+        margin: 0;
+        padding: 48px;
+        background-color: #ff0000;            /*Couleur des bords des sections*/
+    }
+    
+    header {
+        background-color: #70e1f7;            /*Couleur du fond du site*/
+        text-align: center;                     /*Alignement du titre principal*/
+        padding: 48px;                          /*Taille de marge du titre principal*/
+    }
+
+    h1 {
+        font-size: 40px;                        /*Taille du titre principal*/
+        color: #000000;                       /*Couleur du titre principal*/
+    }
+
+    h2 {
+        font-size: 20px;                        /*Taille du sous-titre principal*/
+    }
+
+    h3 {
+        font-size: 25px;                        /*Taille des titres de sections*/
+    }
+
+    h4 {
+        font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
+    }
+
+    section {
+        padding: 48px;                          /*Taille du fond des sections*/
+        background-color: #ffffff;            /*Couleur des sections*/
+        margin: 25px;                           /*Taille des bords des sections*/
+        box-shadow: 0 0 20px #000000e4;       /*Taille et couleur de l'ombre des bord des sections*/
+    }
+
+    ul {
+        list-style-type: disc;                  /*Type de puce des listes*/
+        margin-left: 15px;                      /*Marge des listes*/
+    }
+}
