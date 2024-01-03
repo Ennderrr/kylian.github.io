@@ -25,10 +25,6 @@
         font-size: 25px;                        /*Taille des titres de sections*/
     }
 
-    h4 {
-        font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
-    }
-
     section {
         padding: 15px;                          /*Taille du fond des sections*/
         background-color: #ffffffc5;          /*Couleur des sections*/
@@ -70,10 +66,6 @@
         font-size: 25px;                        /*Taille des titres de sections*/
     }
 
-    h4 {
-        font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
-    }
-
     section {
         padding: 25px;                          /*Taille du fond des sections*/
         background-color: #ffffffc5;          /*Couleur des sections*/
@@ -113,10 +105,6 @@
 
     h3 {
         font-size: 25px;                        /*Taille des titres de sections*/
-    }
-
-    h4 {
-        font-size: 25px;                        /*Taille du titre 4 (Scolarité)*/
     }
 
     section {
